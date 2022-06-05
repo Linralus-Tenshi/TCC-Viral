@@ -1,0 +1,116 @@
+/* --- v0.00.4 -- */
+
+/* --- basic config. --- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--color-D);
+    border: 1px solid var(--color-C);
+    border-top: none;
+    border-bottom: none;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--color-A);
+}
+
+body {
+    background-color: var(--color-D);
+    font-family: 'Courier New';
+}
+
+/* --- root --- */
+
+:root {
+    --color-A: #000000;
+    --color-B: #664747;
+    --color-C: #B3B3B3;
+    --color-D: #E6E6E6;
+}
+
+/* --- main area --- */
+
+main {
+    width: 100%;
+    height: auto;
+
+}
+
+/* --- data area --- */
+
+.header {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 10px;
+    box-shadow: 2px 3px 5px;
+}
+
+.header > h1 {
+    text-align: center;
+}
+
+.header > ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+/* --- paper area --- */
+
+.content {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 2px 3px 5px;
+}
+
+.content > h1 {
+    text-align: center;
+    margin: 1%;
+}
+
+.content > h2 {
+    margin: 1% 5%;
+}
+
+.content > p {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: justify;
+}
+
+/* --- media area --- */
+
+img {
+    display: block;
+    margin: auto;
+}
+
+video {
+    display: block;
+    margin: auto;
+}
+
+/* --- emphasis --- */
+
+.emphasis {
+    color: var(--color-B);
+}
