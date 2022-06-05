@@ -193,7 +193,7 @@ main {
 
 #microscope-image {
     border-radius: 100%;
-    background-image: url('../media/images/microscope-view.png');
+    background-image: url('../media/images/virus.png');
     background-position: center center;
     background-attachment: fixed;
 }
