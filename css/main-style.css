@@ -311,92 +311,11 @@ main {
     margin-bottom: 2.5%;
 }
 
-/* --- download button --- */
-
-.hidden {
-    overflow: hidden;
-    content: "";
-}
-
-.downloadBtn {
-    width: 100%;
-    height: auto;
-}
-
-.downloadBtn > p {
-    text-align: center;
-}
-
-.downloadLink {
-    color: var(--color-E);
-    text-decoration: none;
-    padding: 10px;
-    border: 1px solid var(--color-C);
-    transition: 0.5s;
-}
-
-.downloadLink::before {
-    content: '☤ ';
-    transform: rotate(0);
-}
-
-.downloadLink:hover {
-    background-color: var(--color-E);
-    color: var(--color-A);
-}
-
-.downloadLink:hover::before {
-    content: '☣ ';
-    transform: rotate(90deg);
-}
-
-/* --- image area --- */
-
-.image {
-    width: 100%;
-    height: 25em;
-    border: 1px solid var(--color-C);
-    display: flex;
-    align-content: center;
-}
-
-.image#virus {
-    background-image: url("../media/images/virus.png");
-    background-position: center center;
-    background-attachment: fixed;
-}
-
-.image-caption {
-    width: 70%;
-    height: auto;
-    margin: auto;
-    text-align: center;
-    align-self: center;
-    border-radius: 5px;
-}
-
-.image-caption > h1 {
-    color: white;
-    font-size: 36px;
-    padding: 10px;
-    background-color: rgba(13, 16, 27, 0.700);
-}
-
-/* --- video -- */
-
-video {
-    width: 100%;
-    height: auto;
-    border: 1px solid var(--color-C);
-    border-radius: 5px;
-    z-index: 2;
-}
-
 /* --- footer --- */
 
 footer {
     width: 100%;
-    height: auto;
+    height: 10em;
     display: flex;
     align-items: center;
     background-color: var(--color-A);
