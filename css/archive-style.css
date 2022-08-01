@@ -87,6 +87,8 @@ header > h1 {
     border: 1px solid var(--color-C);
     display: block;
     margin: auto;
+    height: 200px;
+    width: 200px;
 }
 
 .profile.publisher {
