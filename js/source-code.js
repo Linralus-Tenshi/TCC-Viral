@@ -6,6 +6,7 @@ function PageAcessByCode()
     if (code == "277353") { window.location="html/HeNTaI.html"; done=1; }
     if (code == "KeyboardCat") { window.location="html/Keyboard-Cat.html"; done=1; }
     if (code == "Integrantes") { window.location="html/Integrantes.html"; done=1; }
+    if (code == "BeatrixMiller") {window.location=""; done=1 }
 
     if (done == 0) { alert("Código inválido."); }
 }
