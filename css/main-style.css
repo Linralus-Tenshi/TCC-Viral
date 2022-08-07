@@ -217,6 +217,12 @@ main {
     margin: auto;
 }
 
+#solum-image {
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
 .column-area {
     width: 100%;
     height: auto;
@@ -263,6 +269,43 @@ main {
     content: "";
     display: table;
     clear: both;
+}
+
+/* --- wiki area --- */
+
+.wiki-area {
+    width: 100%;
+    height: auto;
+}
+
+summary {
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    outline: 0;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::before {
+    content: '▶ ';
+}
+
+details[open] > summary::before {
+    content: '▼ ';
+    color: var(--color-E);
+}
+
+summary:hover {
+    color: var(--color-E);
+}
+
+details > summary {
+    list-style: none;
+    cursor: pointer;
 }
 
 /* --- divStyle --- */
